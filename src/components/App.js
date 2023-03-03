@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      {console.log(title , genresArr)}
       <MovieCard title={title} genres={genresArr} />
     </div>
   );
